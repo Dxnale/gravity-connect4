@@ -3,8 +3,8 @@ Proyecto simple hecho en Java, basado en el clasico juego conecta 4, pero con la
 ## Descripción
 Este proyecto es un juego de conecta 4, en el cual se puede jugar contra otro jugador, en un formato 1vs1 por turnos.
 
-:::mermaid
-graph LR;
+```mermaid
+  graph TD;
 A[Run] --> B[Ingreso de nombres];
 B --> C[Turnos];
 C --> D[Jugador 1];
@@ -13,7 +13,7 @@ D --> F[Ganador];
 E --> F;
 F --> G[¿Desea volver a jugar?];
 G --> C;
-:::
+```
 
 ## Instalación
 Para poder jugar este juego, se necesita tener instalado Java en su computadora.
